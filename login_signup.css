@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+    /* css property/variables */
+    --color-error:red;
+    --color-succed:green;
+
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:15px;
+    font-family:"Montserrat", sans-serif; 
+    background-color: #24252A;
+
+}
+
+.container {
+    width: 400px;
+    max-width: 400px;
+    padding: 2rem;
+    margin:1rem;
+    box-shadow:0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius:8px;
+    background-color: #fff;
+
+}
+/* form anything first child.!TO REMOVE MARGIN BECAUSE theres H1 and P for the form*/
+.form > *:first-child{
+    margin-top: 0;
+}
+
+.form > *:last-child{
+    margin-bottom: 0;
+}
+
+.logo{
+    margin-left: 125px;
+    border-radius:5px;
+}
+
+.form_tittle{
+    text-align: center;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.form_error{
+    color: var(--color-error);
+}
+
+.form_sucess{
+    color: var(--color-succed);
+}
+
+.form_inputbox{
+    margin-bottom: 15px;
+}
+
+.form_input{
+
+    display: block;
+    width:100%;
+    height: 28px;
+    padding:2px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid grey;
+    outline: none;
+    background:#eeee;
+    transition: background 0.5s, border-color 0.5s;
+}
+
+.form_input:focus{
+
+    border-color:blue;
+    background:#ffff;
+}
+
+.form_errormessage{
+
+    margin-top: 10px;
+    font-size:15px;
+    color:lightcoral;
+}
+
+.button{
+
+    width:100%;
+    padding: 10px 10px;
+    font-weight:bolder;
+    font-size: 0.9rem;
+    color: white;
+    border: none;
+    border-radius:5px;
+    outline: none;
+    cursor:grab;
+    background-color: #3451E1;
+}
+
+.button:hover{
+    background-color:#1D385B;
+    transition: all 0.1s ease 0s;
+}
+
+.button:active{
+    transform:scale(0.96)
+    
+}
+
+.form_text{
+    text-align:center;
+}
+
+.links{
+    color: #3451E1;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.links:hover{
+    text-decoration:underline;
+
+
+}
+

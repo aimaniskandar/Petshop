@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Set a style for the submit button */
+.button {
+    background-color: #e7e7e7;
+    color: black;
+    border: 2px solid #e7e7e7;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius:7px;
+}
+
+.button:hover {
+    background-color: white;
+}
+
+.parentbox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: white;
+    margin-bottom:auto;
+
+}
+
+.childbox{
+
+    padding-right:50px;
+    border: 1px solid lightgray;
+    display: block;
+    justify-content:space-evenly;
+    margin-bottom:2rem;
+
+}
+
+a:link.edit, a:visited.edit, a:link.delete, a:visited.delete {
+    font-size: 15px;
+    color:black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+a:hover.edit, a:active.edit {
+    background-color: #808080;
+    color:white;
+}
+
+a.edit {
+    background-color: #d1d1d1;
+}
+
+a:hover.delete, a:active.delete {
+    background-color: grey;
+    color: white;
+}
+
+a.delete {
+    background-color:dodgerblue;
+    color: white;
+
+}

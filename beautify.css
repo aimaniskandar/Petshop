@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+*{
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background: #24252A;
+}
+
+li, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight:500;
+    font: size 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:30px 100px;
+    background-color: #24252A;
+}
+
+.navitem {
+    font-family: "Montserrat", sans-serif;
+    font-weight:500;
+    font: size 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+
+.logo1{
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    margin-right: auto;
+}
+.logo2{
+    width: 1050px;
+    height:660x;
+    margin-left: 95px;
+    margin-top: 20px;
+}
+
+nav{
+    order: 2;
+}
+
+.navbar{
+    list-style: none;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navbar li a:hover{
+    color:#0088a9;
+}
+
+.Aboutusbox{
+    background:#fff;
+    width: 270px;
+    height:400px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.box1{
+    display: flex;
+    justify-content: center;
+    padding:25px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    color:  #edf0f1;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    flex-wrap: wrap;
+    margin-right: 80px;
+}
+
+.card{
+    background:#fff;
+    width: 270px;
+    height:400px;
+    margin: 10px;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 90px;
+}
+
+.card:hover{
+    transform: scale(0.98);
+}
+
+.card p{
+    text-align: center;
+}
+
+.card_image{
+    height:150px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tittle{
+    text-align: center;
+}
+
+.Addcart{
+    color: #fff;
+    padding: 9px 25px;
+    background-color:rgba(0,136,169,1);
+    border: none;
+    border-radius:50px;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    position: relative;
+    
+}
+
+.Addcart:hover{
+    background-color:#1D385B;
+    transition: all 0.1s ease 0s;
+}
+
+
+footer{
+    background:#2C2A2A    ;
+    height: 50%;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    padding-top:40px;
+    color: #fff;
+}
+
+.footer_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer_info h3{
+
+    font-size:1.8rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    line-height: 1rem;
+}
+
+.footer_info p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height:18px;
+    font-size: 14px;
+}
+
+.socials{
+
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    margin: auto;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.footer_bot{
+    background:#2C2A2A;
+    width: 100vw;
+    padding: 30px 0;
+    text-align: center;
+}
+
+/* PRODCUTS PART */
+.Display_tittle{
+    color: white;
+    letter-spacing: 2px;
+    display: block;
+    padding-left: 100px;
+    font-size:30px;
+    width: 100%;
+    border-radius:3.5px
+}
+
+.Display_tittle span{
+    color: #0088a9;
+}
+
+.Display_tittle h4{
+    color: orange;
+}
+
+.quantity{
+    width:50%;
+    background-color:#ffff;
+
+
+}
+
+
+
+

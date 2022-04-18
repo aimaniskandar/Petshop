@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signup page</title>
+    <link rel="stylesheet" href="login_signup.css">
+</head>
+<body>
+
+    <div class="container">
+        <img class="logo" src="products/Sigmapets.jpeg" alt="" width="250px" height="150px">
+        <h1 class="form_tittle">Login</h1>
+
+        <!-- <div class="form_error"></div> -->
+        <div class="form_inputbox">
+            <!-- added "autofocus" so that it will prioritize username and password -->
+            <input type="text" class="form_input" autofocus placeholder="Username or email" name="Username_or_email">
+            <div class="form_errormessage"></div>
+        </div>
+
+        <!-- for password -->
+        <div class="form_inputbox">
+            <input type="password" class="form_input" autofocus placeholder="Enter Password" name="User_password">
+            <!-- <div class="form_errormessage">Error has accured try again</div> -->
+        </div>
+
+        <button class="button" type="submit">Continue</button>
+
+        <!-- for Signup -->
+        <p class="form_text">
+            <a href="adminlogin.html" class="links">Login as Admin</a>
+        </p>
+
+        <p class="form_text">
+            <a href="signup.html" class="links" id="create_account">Create an Account</a>
+        </p>
+
+</body>
+</html>

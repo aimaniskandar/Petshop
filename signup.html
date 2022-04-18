@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signup page</title>
+    <link rel="stylesheet" href="login_signup.css">
+</head>
+
+<body>
+
+<!-- this is the CREATE AN ACCOUNT  -->
+    <div class="container">
+    <form onsubmit="returnInvalidLogin()" action="insertuser.php"  method="post" id="Account_create" class="form" >
+        <a href="MainHomepage.php"><img class="logo" src="products/Sigmapets.jpeg" alt="" width="150px" height="150px"></a>
+        <h1 class="form_tittle">Create Account</h1>
+        <div class="form_errormessage"></div>
+        <!-- <div class="form_error"></div> -->
+
+        <!-- USERNAME -->
+        <div class="form_inputbox">
+            <!-- added "autofocus" so that it will prioritize username and password -->
+            <input type="text" class="form_input" autofocus placeholder="Username" name="Username" id="Username">
+            <div class="form_errormessage"></div>
+        </div>
+        
+        <!-- EMAIL -->
+        <div class="form_inputbox">
+            <!-- added "autofocus" so that it will prioritize username and password -->
+            <input type="email" class="form_input" autofocus placeholder="Email Address" name="Email_Address" id="Email">
+            <div class="form_errormessage"></div>
+        </div>
+
+        <!-- ADDRESS -->
+        <div class="form_inputbox">
+            <!-- added "autofocus" so that it will prioritize username and password -->
+            <input type="text" class="form_input" autofocus placeholder="House Address" name="House_Address" id="House">
+            <div class="form_errormessage"></div>
+        </div>
+
+        <!-- DOB -->
+        <div class="form_inputbox">
+            <!-- added "autofocus" so that it will prioritize username and password -->
+            <input type="date" class="form_input" autofocus placeholder="Date Of Birth" name="DOB" id="DOB">
+            <div class="form_errormessage"></div>
+        </div>
+
+        <!-- MOBILE NO -->
+        <div class="form_inputbox">
+            <!-- added "autofocus" so that it will prioritize username and password -->
+            <input type="number" class="form_input" autofocus placeholder="Phone no." name="Number" id="Number">
+            <div class="form_errormessage"></div>
+        </div>
+
+        <!-- for password -->
+        <div class="form_inputbox">
+            <input type="password" class="form_input" autofocus placeholder="Enter Password" name="User_password" id="User_password">
+            <!-- <div class="form_errormessage">Error has accured try again</div> -->
+        </div>
+
+        <button class="button" type="submit">Continue</button>
+
+        <p class="form_text">
+            <a href="login.html" class="links" id="create_account">I already have an account! Sign in</a>
+        </p>
+
+    </form>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>
